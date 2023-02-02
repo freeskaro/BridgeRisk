@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta name="description" content="Stats-Tec Trading optimizer">
+<meta name="keywords" content="blockchain, trading, Bitcoin, Freicoin, cryptocurrency, Stats-Tec">
+<meta name="author" content="Stats-Tec inc. Blockchain">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+  <! version 1 2017-11-11 21:30>
+  <title>Risk Analysis Bridges</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/StylesheetU3.css">
+  <link rel="stylesheet" media="only screen and (max-width: 600px)" href="stylesheets/media_screen600.css" >
+
+ <script  src="JavaScript_files/myJavaScript-all.js" type="text/javascript"> </script>
+  <script  src="python/test.py" type="text/pyhton"> </script>
+ <script  src="JavaScript_files/jquery-3.2.1.js" type="text/javascript"> </script>
+<script type="text/javascript">
+
+// declare global variables and functions
+var maxconvert;
+var pairrates =[];
+var coinlist =[];
+var coinsNo;
+//
+$(document).ready(function() {
+///read API from LiveCoin and get trading infomation
+	loadDropMenu();
+	///
+//
+}); // end of onload
+//
+</script>
+</head>
+<body class="style_plain2">
+<div class="header" >
+<h1>Risk <span id="span1">Bridge </span><span id="span1a">Analysis</span></h1>
+<span id="return"> <a href="index.html">Home</a></span>
+</div>
+<div class="floating-box" >
+<form >
+<h3>Data Sets</h3>
+<table class="t1" >
+<tr><td>Province: </td><td><select id="C1" ></select></td></tr>
+<tr><td>Data Type: </td><td><select  id="C2" ></select></td></tr>
+<tr><td>Force Type</td><td><select  id="C3" ></select></td></tr>
+<tr><td>ll Distribution:</td><td><select  id="C4" ></select></td></tr>
+<tr><td><button type="button" onclick="tradeOptMain(0)" >Go!</button></td><td></td></tr>
+</table>
+</form>
+<p>  </p>
+</div >
+<div class="floating-box" >
+<h3> Using Beta Calculator : </h3>
+<ol class="instructions" >
+<li>Choose data parameters</li>
+<li></li>
+<li>Click 'Go!'</li>
+<li>Review results</li>
+</ol>
+<p class="instructions">texte here</p>
+</div >
+
+
+<h3> </h3>
+<div class="floating-box"  >
+<h3>Results Summary</h3>
+<table  class="t1">
+<tr><th>Testbridge</th><th>Avg. annual max ll</th><th>Beta</th>
+<tr><td id="RT01"></td><td id="FT01"></td><td id="ST01"></td>
+<tr><td id="RT02"></td><td id="FT02"></td><td id="ST02"></td>
+<tr><td id="RT03"></td><td id="FT03"></td><td id="ST03"></td>
+<tr><td id="RT04"></td><td id="FT04"></td><td id="ST04"></td>
+<tr><td id="RT12"></td><td id="FT12"></td><td id="ST12"></td>
+<tr><td id="RT13"></td><td id="FT13"></td><td id="ST13"></td>
+<tr><td id="RT14"></td><td id="FT14"></td><td id="ST14"></td>
+<tr><td id="RT23"></td><td id="FT23"></td><td id="ST23"></td>
+<tr><td id="RT24"></td><td id="FT24"></td><td id="ST24"></td>
+<tr><td id="RT34"></td><td id="FT34"></td><td id="ST34"></td>
+</table>
+</div>
+
+
+<div id="div2" >
+<h3 id="p3"></h3>
+<p id="p4"></p>
+
+</div>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
